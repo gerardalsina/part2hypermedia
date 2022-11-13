@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!--Gerard Alsina Darder-->
+
+<html>
+	<head>
+		<title>Master Mind Game</title>
+		<link rel="stylesheet" type="text/css" href="part2.css">
+		<script src="part2.js"></script>
+	</head>
+	
+	<body onLoad=load()>
+		<div class="header"><h1>Master Mind Game</h1></div>
+		
+		<div class="introInfo">
+			<h2 id="Nom">Player information</h2>
+			<div id="identification">
+				<span class="label" >Name:</span> 
+				<input type="text" id="Name"/>
+				<button id="Play" onclick=play()> Play! </button>
+			</div>
+		</div>
+		
+		<div class="Statistics" id="Stats">
+			<span class="label" id="wins"></span>
+			</br>
+			<span class="label" id="loses"></span>
+			</br>
+			</br>
+		</div>
+		
+		<div class="Game" id="Game">
+			<hr>
+			<p>
+				<img src="grey.jpg" alt="Guess" width="20px" height="16px"/>
+				<img src="grey.jpg" alt="Guess" width="20px" height="16px"/>
+				<img src="grey.jpg" alt="Guess" width="20px" height="16px"/>
+				<img src="grey.jpg" alt="Guess" width="20px" height="16px"/>
+				<div class="Results" id="First"> <span class="txtResults" id="R1"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C1"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I1"></span>
+				</br>
+				</div>
+				<div class="Results" id="Second"> <span class="txtResults" id="R2"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C2"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I2"></span>
+				</br>
+				</div>
+				<div class="Results" id="Third"> <span class="txtResults" id="R3"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C3"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I3"></span>
+				</br>
+				</div>
+				<div class="Results" id="Fourth"> <span class="txtResults" id="R4"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C4"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I4"></span>
+				</br>
+				</div>
+				<div class="Results" id="Fifth"> <span class="txtResults" id="R5"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C5"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I5"></span>
+				</br>
+				</div>
+				<div class="Results" id="Sixth"> <span class="txtResults" id="R6"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C6"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I6"></span>
+				</br>
+				</div>
+				<div class="Results" id="Seventh"> <span class="txtResults" id="R7"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C7"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I7"></span>
+				</br>
+				</div>
+				<div class="Results" id="Eigth"> <span class="txtResults" id="R8"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C8"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I8"></span>
+				</br>
+				</div>
+				<div class="Results" id="Nineth"> <span class="txtResults" id="R9"></span>
+					<img src="green.png" alt="Correct" width="15px" height="15px"/> <span id="C9"></span>
+					<img src="yellow.jpg" alt="Wrong Place" width="25px" height="15px"/> <span id="I9"></span>
+				</br>
+				</div>
+				</br>
+				<span class="label" id="Round"></span>
+				<input type="text" id="RoundTry"/>
+				<button id="Round" onclick=guess()> Make the guess!</button>
+			</p>
+		</div>
+		
+		<div id="Message">
+			<span></span> 
+		</div>
+		
+		</br>
+		</br>
+
+	</body>
+	
+</html>

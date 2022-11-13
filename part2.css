@@ -1,0 +1,77 @@
+/* Gerard Alsina Darder */
+
+body{
+	font-family: Verdana, Arial, serif;
+	text-align: center;
+	width: 50%;
+	margin-top: 150px;
+	border: 1px solid grey;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+
+h1{
+	font-family: Cursive;
+}
+
+strong{
+	color: #782FB2;
+}
+
+.header{
+	font-size: 120%;
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.introInfo{
+	text-align: center;
+	border-radius: 15px;
+}
+
+.Results{
+	margin-left: 98px;
+	display: none;
+}
+
+.txtResults{
+	letter-spacing: 15px;
+}
+
+h2{
+	width: 80%;
+	background-color: LightGrey;
+	padding-top:8px;
+	padding-bottom:8px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	
+}
+
+#Round{
+	font-weight: bold;
+}
+
+button{
+	background-color: blue;
+	color: white;
+}
+
+button:hover{
+	background-color: yellow;
+	border-color: black;
+	font-style: bold;
+	color: black;
+}
+
+p{
+	font-family: Verdana, Arial, serif;
+}
